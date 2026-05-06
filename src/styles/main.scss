@@ -16,9 +16,8 @@ body {
 }
 
 .page {
-  scroll-behavior: smooth;
-
   position: relative;
+  scroll-behavior: smooth;
 
   &:has(.page__menu:target) {
     overflow: hidden;
@@ -27,8 +26,8 @@ body {
   &__menu {
     position: fixed;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     transform: translateY(-100%);
 
     opacity: 0;

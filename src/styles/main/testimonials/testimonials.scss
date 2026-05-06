@@ -1,7 +1,7 @@
 .testimonials {
   grid-template-rows: auto;
   row-gap: 30px;
-  
+
   background-image: url('../images/icon/testimonilas.svg');
   background-repeat: no-repeat;
   background-position: top;
@@ -53,6 +53,8 @@
   &__avatar {
     width: 62px;
     height: 62px;
+
+    @include hover(transform, scale(1.2));
   }
 
   &__name {
