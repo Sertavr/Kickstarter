@@ -6,7 +6,7 @@
   gap: 30px;
   justify-content: center;
   align-items: center;
-  
+
   padding-bottom: 20px;
 
   @include on-tablet {
@@ -70,6 +70,10 @@
   }
 
   &__icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     @include size-icon-footer;
     @include hover(transform, scale(1.2));
 

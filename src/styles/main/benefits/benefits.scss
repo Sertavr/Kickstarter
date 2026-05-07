@@ -5,7 +5,7 @@
   &__wrapper-articles {
     display: flex;
     gap: 30px;
-    
+
     overflow: hidden;
 
     width: 100%;
@@ -38,6 +38,8 @@
     align-items: center;
 
     scroll-snap-align: center;
+
+    cursor: pointer;
 
     transition: $transition;
 

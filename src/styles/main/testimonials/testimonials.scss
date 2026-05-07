@@ -54,10 +54,14 @@
     width: 62px;
     height: 62px;
 
+    cursor: pointer;
+
     @include hover(transform, scale(1.2));
   }
 
   &__name {
+    @extend %h5;
+    
     margin-top: 5px;
     color: $main-black;
   }

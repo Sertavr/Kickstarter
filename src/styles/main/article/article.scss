@@ -14,7 +14,7 @@
       display: block;
       grid-column: 5 / span 4;
     }
-    
+
     @include on-desktop {
       grid-column: 7/ span 6;
     }
@@ -44,6 +44,8 @@
   &__picture {
     grid-column: 1 / -1;
     width: 100%;
+
+    cursor: pointer;
 
     transition: all $transition;
 

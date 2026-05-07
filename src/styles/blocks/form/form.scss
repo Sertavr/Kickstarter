@@ -11,6 +11,8 @@
     padding: 12px 20px;
     border: 1px solid $tertiary-text;
 
+    font-size: 14px;
+
     outline: none;
 
     background-color: $c-gray;
@@ -34,6 +36,11 @@
     &--error:focus {
       border-color: $error;
     }
+
+    &:is(:autofill, :-webkit-autofil) {
+      box-shadow: inset 0 0 0 1000px $c-gray;
+      -webkit-text-fill-color: $main-black;
+    }
   }
 
   &__textarea {
@@ -43,6 +50,8 @@
     height: 128px;
     padding: 12px 20px;
     border: 1px solid $tertiary-text;
+
+    font-size: 14px;
 
     background-color: $c-gray;
     outline: none;
